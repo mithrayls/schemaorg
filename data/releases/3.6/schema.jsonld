@@ -16717,6 +16717,15 @@
       }
     },
     {
+      "@id": "http://schema.org/MedicalBusiness",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "A particular physical or virtual business of an organization for medical purposes. Examples of MedicalBusiness include differents business run by health professionals.",
+      "rdfs:label": "MedicalBusiness",
+      "rdfs:subClassOf": {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    },
+    {
       "@id": "http://schema.org/employee",
       "@type": "rdf:Property",
       "http://schema.org/domainIncludes": {
